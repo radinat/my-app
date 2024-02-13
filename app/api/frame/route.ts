@@ -7,11 +7,11 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
 
     const nextId = idAsNumber + 1
 
-    if(idAsNumber === 7){
+    if(idAsNumber === 5){
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 5</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://harlequin-respectable-tiglon-537.mypinata.cloud/ipfs/QmXKheKKQjeJLDiieJc83gMcrCk6m58FjqpQeeiNDsojCh/5.jpg" />
+    <meta property="fc:frame:image" content="https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:1" content="Visit page" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
@@ -23,7 +23,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://harlequin-respectable-tiglon-537.mypinata.cloud/ipfs/QmXKheKKQjeJLDiieJc83gMcrCk6m58FjqpQeeiNDsojCh/${id}.jpg" />
+    <meta property="fc:frame:image" content="https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png" />
    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />

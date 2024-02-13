@@ -4,7 +4,7 @@ import {Metadata} from "next";
 
 const frameMetadata = getFrameMetadata({
   buttons: [{label: "Begin"}],
-  image: `https://harlequin-respectable-tiglon-537.mypinata.cloud/ipfs/QmXKheKKQjeJLDiieJc83gMcrCk6m58FjqpQeeiNDsojCh/0.jpg`,
+  image: `https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png`,
   postUrl: `https://my-app-gamma-bice.vercel.app/api/frame?id=1`,
 
 
@@ -16,7 +16,7 @@ export const metadata:Metadata ={
   openGraph: {
     title: 'Frame KS',
     description: 'A very simple frame',
-    images: [`https://harlequin-respectable-tiglon-537.mypinata.cloud/ipfs/QmXKheKKQjeJLDiieJc83gMcrCk6m58FjqpQeeiNDsojCh/0.jpg`]
+    images: [`https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png`]
   },
   other: {
     ...frameMetadata
