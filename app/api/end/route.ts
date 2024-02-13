@@ -16,8 +16,8 @@ export async function POST(req: NextRequest):Promise<Response> {
     }
 
     const headers = new Headers()
-    headers.set("Location", `${process.env.NEXT_PUBLIC_BASE_URL}/`)
-    const response= NextResponse.redirect(`${process.env.NEXT_PUBLIC_BASE_URL}/${path}`, {
+    headers.set("Location", `https://my-app-gamma-bice.vercel.app/`)
+    const response= NextResponse.redirect(`https://my-app-gamma-bice.vercel.app/${path}`, {
         headers: headers,
         status: 302
     })
