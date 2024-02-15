@@ -19,7 +19,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <meta property="fc:frame:button:2:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/end" />
   </head></html>`);
-    } else if(idAsNumber === 0) {
+    } else if(idAsNumber === 1) {
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
@@ -28,7 +28,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
-    } else if(idAsNumber === 1) {
+    } else if(idAsNumber === 2) {
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
