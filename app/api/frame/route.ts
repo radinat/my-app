@@ -11,7 +11,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 5</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png" />
+    <meta property="fc:frame:image" content="https://i.ibb.co/KwTtCMX/4.png" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:1" content="Visit page" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
