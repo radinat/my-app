@@ -28,7 +28,16 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
-    }
+    } else {
+        return new NextResponse(`<!DOCTYPE html><html><head>
+    <title>This is frame ${id}</title>
+    <meta property="fc:frame" content="vNext" />
+    <meta property="fc:frame:image" content="https://i.ibb.co/f1S1RrR/2.png" />
+   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:button:1" content="Next Page" />
+    <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
+  </head></html>`);
+    } 
 }
 
 export async function POST(req: NextRequest):Promise<Response> {
