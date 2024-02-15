@@ -12,7 +12,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <title>This is frame 5</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.ibb.co/KwTtCMX/4.png" />
-    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:button:1" content="Visit L2BEAT" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:button:2" content="About us" />
@@ -24,7 +24,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.ibb.co/f1S1RrR/2.png" />
-   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+   <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.ibb.co/prnbwTK/3.png" />
-   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+   <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
@@ -42,7 +42,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.ibb.co/KwTtCMX/4.png" />
-   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+   <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:button:1" content="Final Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
