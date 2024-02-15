@@ -13,9 +13,9 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.ibb.co/KwTtCMX/4.png" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
-    <meta property="fc:frame:button:1" content="Visit page" />
+    <meta property="fc:frame:button:1" content="Visit L2BEAT" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
-    <meta property="fc:frame:button:2" content="learn how this was made" />
+    <meta property="fc:frame:button:2" content="About us" />
     <meta property="fc:frame:button:2:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/end" />
   </head></html>`);
