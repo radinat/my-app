@@ -4,7 +4,7 @@ import {Metadata} from "next";
 
 const frameMetadata = getFrameMetadata({
   buttons: [{label: "Begin"}],
-  image: `https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png`,
+  image: `https://i.ibb.co/mqG62Tm/1.png`,
   postUrl: `https://my-app-gamma-bice.vercel.app/api/frame?id=1`,
 
 

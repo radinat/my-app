@@ -7,7 +7,7 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
 
     const nextId = idAsNumber + 1
 
-    if(idAsNumber === 5){
+    if(idAsNumber === 3){
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 5</title>
     <meta property="fc:frame" content="vNext" />
@@ -19,11 +19,11 @@ async function getResponse(req: NextRequest):Promise<NextResponse>  {
     <meta property="fc:frame:button:2:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/end" />
   </head></html>`);
-    } else {
+    } else if(idAsNumber === 2) {
         return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://cdn-images-1.medium.com/max/1200/1*mbh9BKzjBefNexUg0f26iw.png" />
+    <meta property="fc:frame:image" content="https://i.ibb.co/f1S1RrR/2.png" />
    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://my-app-gamma-bice.vercel.app/api/frame?id=${nextId}" />
